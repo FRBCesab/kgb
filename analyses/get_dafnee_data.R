@@ -4,5 +4,4 @@ utils::download.file("https://raw.githubusercontent.com/FRBCesab/dafnee/main/dat
                      "data/raw-data/dafnee_refs.txt", 
                      mode = "wb" )
 
-
-
+jpw_scrap <- read.csv2("data/derived-data/jwpc_scraped_publis.csv")
