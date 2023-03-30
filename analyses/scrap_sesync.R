@@ -103,4 +103,4 @@ for (i in 1:length(children)) {
 
 ## Export table ----
 
-save(papers, file = here::here("data", "raw-data", "sesync_papers.RData"))
+save(papers, file = here::here("github/projects/kgb/data", "raw-data", "sesync_papers.RData"))
